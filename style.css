@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box; 
+   }
+
+body{
+    background-color: #b9c8d8;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#container{ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 6px;
+  border: 1px solid #333;
+}
+
+#container #banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background-color: #f4ad8e;
+    border-bottom: 1px solid #333;
+}
+
+#container #banner h1{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#container #main .nav-menu{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 15%;
+    height:77.5%;
+    border-right: 1px solid #333;
+}
+
+#container #main .content{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 85%;
+    height:77.5%;
+}
+
+#container #main .nav-menu ul{    
+    padding:0;
+    margin:0;
+    width:95%;    
+}
+
+#container #main .nav-menu ul li{
+    list-style-type: none;
+    margin: 15px;
+    padding: 18px;
+    font-size: 23px;
+    border-bottom: 1px solid #333;
+}
+
+#container #main .nav-menu ul li a{
+    color: #bb3506;
+    text-decoration: none;
+}
+
+#container #main .content .text{
+    position: absolute;
+    width: 67%;
+    height: 40%;
+    top: 0%;    
+    left: 5%;  
+    color: #3C448C;
+}
+
+#container #main .content .photos{
+    position: absolute;
+    top: 45%;
+    left: 10%;   
+}
+
+#container #main .content .photos p{
+    text-align: center;
+}
+
+#container footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7.5%;
+    background-color: #f4ad8e;
+    border-top: 1px solid #333;
+}
+
+#container footer p{
+    color:#fff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
